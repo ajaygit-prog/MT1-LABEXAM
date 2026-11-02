@@ -193,11 +193,11 @@ const server = http.createServer((req, res) => {
     });
   }
 
-  // Invalid routes
+  
   else {
     res.writeHead(404, {
       "Content-Type": "application/json",
-    });
+    }) ;
 
     res.end(
       JSON.stringify({

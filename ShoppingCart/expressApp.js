@@ -29,7 +29,7 @@ let cart = [
   },
 ];
 
-// Validate product details
+
 function isValidProduct(product, requireId = false) {
   if (!product || typeof product !== "object" || Array.isArray(product)) {
     return false;
