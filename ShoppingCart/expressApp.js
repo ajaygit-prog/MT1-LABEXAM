@@ -117,8 +117,8 @@ app.post("/cart", (req, res) => {
   });
 });
 
-// PUT /cart/:id
-// Update an existing product
+
+
 app.put("/cart/:id", (req, res) => {
   const id = Number(req.params.id);
 
