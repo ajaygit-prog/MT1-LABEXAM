@@ -18,7 +18,7 @@ const cart = [
   },
   {
     id: 2,
-    productName: "Keyboard",
+    productName: "Keyboard" ,
     price: 999,
     quantity: 1,
   },
@@ -26,7 +26,7 @@ const cart = [
     id: 3,
     productName: "Headphones",
     price: 1499,
-    quantity: 1,
+    quantity: 1 ,
   },
 ];
 
