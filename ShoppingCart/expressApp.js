@@ -54,14 +54,12 @@ function isValidProduct(product, requireId = false) {
   );
 }
 
-// GET /cart
-// Retrieve all cart items
+
 app.get("/cart", (req, res) => {
   res.status(200).json(cart);
 });
 
-// GET /cart/:id
-// Retrieve a product by ID
+
 app.get("/cart/:id", (req, res) => {
   const id = Number(req.params.id);
 
