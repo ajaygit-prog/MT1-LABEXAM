@@ -83,8 +83,7 @@ app.get("/cart/:id", (req, res) => {
   });
 });
 
-// POST /cart
-// Add a new product
+
 app.post("/cart", (req, res) => {
   const product = req.body;
 
