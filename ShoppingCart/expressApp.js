@@ -6,7 +6,6 @@ const PORT = 4000;
 // Middleware to parse JSON
 app.use(express.json());
 
-// Shopping cart array
 let cart = [
   {
     id: 1,
