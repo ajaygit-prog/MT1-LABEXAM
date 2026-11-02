@@ -69,7 +69,7 @@ app.get("/cart/:id", (req, res) => {
     });
   }
 
-  const product = cart.find((item) => item.id === id);
+  const product = cart.find((item) => item.id === id) ;
 
   if (!product) {
     return res.status(404).json({
