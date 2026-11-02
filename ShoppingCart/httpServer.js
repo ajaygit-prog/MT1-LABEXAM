@@ -41,7 +41,7 @@ const server = http.createServer((req, res) => {
     res.end(`
             <h1>Welcome to Shopping Cart Management</h1>
             <p>Node.js HTTP Server is working successfully.</p>
-        `);
+        `)  ;
   }
 
  
