@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
         `);
   }
 
-  // GET /cart
+ 
   else if (req.method === "GET" && req.url === "/cart") {
     res.writeHead(200, {
       "Content-Type": "application/json",
@@ -53,7 +53,7 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify(cart));
   }
 
-  // GET /about
+  
   else if (req.method === "GET" && req.url === "/about") {
     res.writeHead(200, {
       "Content-Type": "text/html; charset=utf-8",
@@ -66,7 +66,6 @@ const server = http.createServer((req, res) => {
         `);
   }
 
-  // GET /home
   else if (req.method === "GET" && req.url === "/home") {
     const filePath = path.join(__dirname, "public", "index.html");
 
