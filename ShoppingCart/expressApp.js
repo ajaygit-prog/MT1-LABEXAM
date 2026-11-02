@@ -183,8 +183,7 @@ app.put("/cart/:id", (req, res) => {
   });
 });
 
-// DELETE /cart/:id
-// Delete a product
+
 app.delete("/cart/:id", (req, res) => {
   const id = Number(req.params.id);
 
