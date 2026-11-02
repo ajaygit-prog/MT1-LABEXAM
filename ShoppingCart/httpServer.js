@@ -50,7 +50,7 @@ const server = http.createServer((req, res) => {
       "Content-Type": "application/json",
     });
 
-    res.end(JSON.stringify(cart));
+    res.end(JSON.stringify(cart)) ;
   }
 
   
