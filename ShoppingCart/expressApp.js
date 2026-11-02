@@ -65,7 +65,7 @@ app.get("/cart/:id", (req, res) => {
 
   if (!Number.isInteger(id) || id <= 0) {
     return res.status(400).json({
-      error: "Invalid product ID",
+      error: "Invalid product ID" ,
     });
   }
 
