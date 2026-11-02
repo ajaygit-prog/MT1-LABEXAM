@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 const PORT = 3000;
 
-// Shopping cart array
+
 const cart = [
   {
     id: 1,
@@ -30,9 +30,9 @@ const cart = [
   },
 ];
 
-// Create HTTP server
+
 const server = http.createServer((req, res) => {
-  // GET /
+  
   if (req.method === "GET" && req.url === "/") {
     res.writeHead(200, {
       "Content-Type": "text/html; charset=utf-8",
