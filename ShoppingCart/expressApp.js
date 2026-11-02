@@ -222,7 +222,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Handle invalid endpoints
+
 app.use((req, res) => {
   res.status(404).json({
     error: "Route not found",
