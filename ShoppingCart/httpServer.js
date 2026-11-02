@@ -87,14 +87,14 @@ const server = http.createServer((req, res) => {
     });
   }
 
-  // POST /add-to-cart
+  
   else if (req.method === "POST" && req.url === "/add-to-cart") {
     let body = "";
 
     req.on("data", (chunk) => {
       body += chunk;
 
-      // Prevent excessively large request bodies
+    
       if (body.length > 100000) {
         res.writeHead(413, {
           "Content-Type": "application/json",
