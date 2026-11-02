@@ -79,7 +79,7 @@ app.get("/cart/:id", (req, res) => {
 
   res.status(200).json({
     ...product,
-    totalPrice: product.price * product.quantity,
+    totalPrice: product.price * product.quantity ,
   });
 });
 
