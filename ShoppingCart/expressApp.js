@@ -88,7 +88,7 @@ app.get("/cart/:id", (req, res) => {
 app.post("/cart", (req, res) => {
   const product = req.body;
 
-  if (!isValidProduct(product, true)) {
+  if (!isValidProduct(product, true))  {
     return res.status(400).json({
       error: "Valid id, productName, price, quantity and category are required",
     });
