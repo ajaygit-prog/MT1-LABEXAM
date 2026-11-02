@@ -73,7 +73,7 @@ app.get("/cart/:id", (req, res) => {
 
   if (!product) {
     return res.status(404).json({
-      error: "Product not found",
+      error: "Product not found" ,
     });
   }
 
