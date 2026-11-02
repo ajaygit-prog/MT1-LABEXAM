@@ -12,7 +12,7 @@ const PORT = 3000;
 const cart = [
   {
     id: 1,
-    productName: "Wireless Mouse",
+    productName: "Wireless Mouse" ,
     price: 799,
     quantity: 2,
   },
